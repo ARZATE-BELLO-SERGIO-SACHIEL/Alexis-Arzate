@@ -1,0 +1,114 @@
+<html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Florería de México</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #d82a37;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #d82a37;
+        }
+        .navbar a {
+            padding: 14px 20px;
+            display: block;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #b71c1c;
+        }
+        .search-bar {
+
+            text-align: center;
+            
+            background-color: #d82a37;
+
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .logo{
+            transform: translate(250%,-100%);
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>La Florería de México</h1>
+
+    </div>
+
+    <div class="navbar">
+
+        <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/007/422/233/small/florist-logo-design-inspiration-beauty-and-decorative-concept-cosmetic-spa-beauty-salon-luxury-vector.jpg" height="100px">
+        </div>
+        
+        <a href="https://ponchycaprico.com/collections/descuento-envia-flores-arreglos-florales-economicos-descuentos?page=3">Ofertas</a>
+        <a href="https://www.enviaflores.com/">Ver Todos</a>
+        <a href="https://ponchycaprico.com/collections/envioflores-a-domicilio-cdmx-flores-para-toda-ocasion">Por Ocasión</a>
+        <a href="https://blog.lacasadelasflores.com/flores-y-plantas/tipos-de-flores-mas-populares/">Por Tipo de Flor</a>
+        <a href="#">Ayuda</a>
+        <a href="#">Contacto</a>
+        <a href="#">Moneda</a>
+        <a href="#">English</a>
+        <a href="https://arzate-bello-sergio-sachiel.github.io/Alexis-Arzate/">Mi Cuenta</a>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Buscar...">
+    </div>
+
+    <table border="3" cellpadding="0" cellspacing="20" width="100%">
+        <tr>
+            <th width="218.19px">    
+                <img src="https://ponchycaprico.com/cdn/shop/files/Arreglo-floral-de-12-Rosas-Mix_-Alstro-Blanca-y-Clavellinas-Rosadas--GI011.png?v=1701731001"  width="100%" height="250">
+            </th>
+            <th  width="218.19px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXLPrzKrTGXBAUoHcbxTZYzcKD_pmnOsKxA&s"  width="100%" height="250">
+            </th>
+            <th  width="218.19px">
+                <img src="https://floreriamayela.com/wp-content/uploads/2021/04/A367-1.jpeg"  width="100%" height="250">
+            </th>
+        </tr>
+
+        <tr>
+            <th  width="218.19px">
+                <img src="https://m.media-amazon.com/images/I/610zYk048+L.jpg"  width="100%" height="250">
+            </th>
+            <th  width="218.19px">
+                <img src="https://floresfinas.oss-us-east-1.aliyuncs.com/mj-v1/arreglo-floral-fm351-1.webp"  width="100%" height="250">
+            </th>
+            <th  width="218.19px">
+                <img src="https://florerialiliana.com.mx/wp-content/uploads/2020/04/ATLANTIC-2-1-700x700.jpg"  width="100%" height="250">
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
